@@ -1,0 +1,1 @@
+# User Documentation\n\nPersonal context and preferences for PAI system.\n\n## Principal Identity\n- Name: Duane\n- Role: Full-stack developer, AI infrastructure builder\n- Location: USA (America/Chicago)\n\n## Working Preferences\n- Direct, concise communication\n- TypeScript over Python\n- High autonomy preferred\n\nSee also: [[PAI-Docs/USER/PRINCIPAL_IDENTITY]]
