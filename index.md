@@ -1,49 +1,36 @@
-# PAI Knowledge Base
+# PAI Knowledge Vault
 
-Welcome to the Personal AI Infrastructure (PAI) knowledge base — a comprehensive digital garden documenting PAI's architecture, capabilities, and operational knowledge.
+Welcome to Duane's Personal AI Infrastructure knowledge base.
 
-## Navigation
+## Live Site
 
-### 📚 PAI Documentation
-Core system documentation, architecture guides, and operational runbooks.
+🌐 **https://quartz.cloudenz.org**
 
-- [[PAI-Docs/ARCHITECTURE_SUMMARY|Architecture Overview]]
-- [[PAI-Docs/PAI_SYSTEM_PROMPT|System Prompt]]
-- [[PAI-Docs/Algorithm/LATEST|Current Algorithm Version]]
-- [[PAI-Docs/DOCUMENTATION/TROUBLESHOOTING_METHOD|Troubleshooting Method]]
+This vault contains documentation, research, and knowledge from the PAI system across five engines (Claude Code, Antigravity/Gemini, Ollama, OpenAI Codex, and OpenCode).
 
-### 🧠 Knowledge Archive
-Curated knowledge across People, Companies, Ideas, and Research domains.
+## Contents
 
-- [[PAI-Knowledge/Ideas/|Ideas]]
-- [[PAI-Knowledge/Research/|Research]]
+- **PAI-Docs** - System documentation and guides
+- **PAI-Knowledge** - Knowledge base entries
+- **PAI-Projects** - Project documentation
+- **PAI-User** - User context and settings
+- **Research** - Research notes and findings
+- **SECURITY** - Security documentation
+- **OBSERVABILITY** - Monitoring and telemetry
 
-### 🔧 System Components
+## Auto-Sync
 
-**Core Architecture:**
-- [[PAI-Docs/MEMORYSYSTEM|Memory System]]
-- [[PAI-Docs/SKILLSYSTEM|Skill System]]
-- [[PAI-Docs/THEHOOKSYSTEM|Hook System]]
-- [[PAI-Docs/PAIAGENTSYSTEM|Agent System]]
+This vault automatically syncs:
+1. **Obsidian → Git** (every 10 minutes)
+2. **Git → Build → Deploy** (60 seconds after changes)
+3. **Live at:** quartz.cloudenz.org
 
-**Infrastructure:**
-- [[PAI-Docs/IAM_ARCHITECTURE|Identity & Access Management]]
-- [[PAI-Docs/RBAC_ORG_STRUCTURES_MODEL|RBAC Model]]
-- [[PAI-Docs/THENOTIFICATIONSYSTEM|Notification System]]
+## Powered By
 
-### 🎯 Capabilities & Tools
-- [[PAI-Docs/TOOLS|Tools Directory]]
-- [[PAI-Docs/CLI|Command-Line Interface]]
-- [[PAI-Docs/FLOWS|Workflow Patterns]]
-
-### 📖 Operational Knowledge
-- [[PAI-Docs/AISTEERINGRULES|AI Steering Rules]]
-- [[PAI-Docs/ENFORCEMENT_MAP|Enforcement Registry]]
-- [[PAI-Docs/CONTEXT_ROUTING|Context Routing Guide]]
+- **Quartz** - Static site generator for Obsidian
+- **Cloudflare Pages** - Hosting and CDN
+- **GitHub** - Version control
 
 ---
 
-**About PAI:** Personal AI Infrastructure is a multi-engine AI assistant system integrating Claude Code (PNC), Antigravity (PNG), Ollama (PNO), OpenAI Codex (PNX), and OpenCode (PNK) into a unified Digital Assistant with persistent memory, skill-based dispatch, and algorithmic execution.
-
-**Version:** 5.1.0  
-**Last Updated:** 2026-07-07
+*Last updated: 2026-07-10*
