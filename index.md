@@ -1,36 +1,41 @@
-# PAI Knowledge Vault
+---
+created: 2026-07-14
+tags: [moc, index]
+---
 
-Welcome to Duane's Personal AI Infrastructure knowledge base.
+# PAI Vault — Zettelkasten Second Brain
 
-## Live Site
+## Navigation
 
-🌐 **https://quartz.cloudenz.org**
+### 📚 Source Material
+- [[PAI-Docs/]] — Technical documentation
+- [[PAI-Knowledge/]] — Curated knowledge base
+- [[PAI-Projects/]] — Project tracking
+- [[PAI-NAS/]] — NAS-synced content
 
-This vault contains documentation, research, and knowledge from the PAI system across five engines (Claude Code, Antigravity/Gemini, Ollama, OpenAI Codex, and OpenCode).
+### 🧠 Zettelkasten
+- [[Zettelkasten/]] — Atomic permanent notes
+- [[Templates/]] — Note templates
 
-## Contents
+### 🔗 Key Maps of Content (MOCs)
+<!-- Add your main topic MOCs here as you create them -->
 
-- **PAI-Docs** - System documentation and guides
-- **PAI-Knowledge** - Knowledge base entries
-- **PAI-Projects** - Project documentation
-- **PAI-User** - User context and settings
-- **Research** - Research notes and findings
-- **SECURITY** - Security documentation
-- **OBSERVABILITY** - Monitoring and telemetry
+### 📊 Graph View
+Use Obsidian's graph view to visualize connections between notes.
 
-## Auto-Sync
+### 🔍 Smart Connections
+The Smart Connections plugin will suggest related notes as you write.
 
-This vault automatically syncs:
-1. **Obsidian → Git** (every 10 minutes)
-2. **Git → Build → Deploy** (60 seconds after changes)
-3. **Live at:** quartz.cloudenz.org
+## Workflow
 
-## Powered By
+1. **Capture** — Use Daily Notes or Source Notes for input
+2. **Process** — Extract atomic ideas into Zettelkasten notes
+3. **Connect** — Link related concepts using [[wikilinks]]
+4. **Create** — Build MOCs and output from connected notes
 
-- **Quartz** - Static site generator for Obsidian
-- **Cloudflare Pages** - Hosting and CDN
-- **GitHub** - Version control
+## Recent Notes
+<!-- Use Dataview queries or manual links here -->
 
 ---
 
-*Last updated: 2026-07-10*
+*Last Updated: {{date:YYYY-MM-DD}}*
